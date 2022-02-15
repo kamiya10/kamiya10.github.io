@@ -1,1 +1,0 @@
-# kamiya10.github.io
