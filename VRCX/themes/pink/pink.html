@@ -1,0 +1,95 @@
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="header">VRCX 粉色主題</h2>
+        <div class="palettes">
+            <div class="color" style="background-color: #322525; color:#928585">#322525</div>
+            <div class="color" style="background-color: #dfa2a2; color:#7f4242">#dfa2a2</div>
+            <div class="color" style="background-color: #554040; color:#b5a0a0">#554040</div>
+        </div>
+<div class="instructions"><ol>
+            <li><a class="download" href="./custom.css" download>下載</a>這個檔案 <small>(custom.css, 39 bytes)</small></li>
+            <li>把 <code>custom.css</code> 放到 <code>%AppData%\VRCX</code> 裡</li>
+            <li>在 VRCX 內 <kbd>Shift</kbd> + <kbd>R</kbd> 來讀取</li>
+        </ol></div>
+
+        <div class="screenshots">
+            <img src="./resource/1.png" alt="" width="600" draggable="false">
+            <img src="./resource/2.png" alt="" width="600" draggable="false">
+        </div>
+    </div>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    html,
+    body {
+        font-family: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+        background-color: #221515;
+        user-select: none;
+        color: #faeeee
+    }
+    h2 { text-align: center; }
+    kbd {
+        font-family: sans-serif;
+        padding: 0 5px;
+        margin: 2px;
+        background-color: #554040;
+        border-radius: 5px;
+        border: 1px solid #958080;
+    }
+    code {
+        font-family: 'Consolas', monospace;
+        padding: 0 4px;
+        margin: 2px;
+        background-color: #111;
+        color: #caa;
+        user-select: text;
+    }
+    .container {
+        width: 100%;
+    }
+    .palettes {
+        display: flex;
+        justify-content: center;
+    }
+    .palettes .color {
+        margin: 0 10px;
+        height: 12vh;
+        width: 12vh;
+        line-height: 12vh;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .instructions {
+        width: fit-content;
+        margin: auto
+    }
+    .download {
+        color: #dfa2a2;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+    .screenshots {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    img {
+        margin: 10px;
+    }
+</style>
+
+</html>
