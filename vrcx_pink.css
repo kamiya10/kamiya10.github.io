@@ -19,7 +19,7 @@ body,button,input,select,textarea {
 .el-table--mini .el-table__expanded-cell[class*=cell]:hover {
     background-color: transparent!important
 }
-.el-button.is-disabled,.el-button.is-disabled:focus,.el-button.is-disabled:hover,.el-pagination .btn-next,.el-pagination .btn-prev,.el-switch__core,.el-tree,.x-aside-container,.x-container {
+.el-button.is-disabled,.el-button.is-disabled:focus,.el-button.is-disabled:hover,.el-pagination .btn-next,.el-pagination .btn-prev,.el-switch__core,.el-tree,.x-aside-container,.x-container,.x-login-container {
     background-color: var(--bg)
 }
 .el-pager li,.el-pager li.btn-quicknext,.el-pager li.btn-quickprev {
@@ -133,7 +133,7 @@ body,button,input,select,textarea {
     background-color: var(--lighter-lighter-bg);
     border: 2px solid var(--lighter-lighter-lighter-lighter-bg)
 }
-.el-collapse-item__header>span+span,.el-pagination__total,.el-table th.el-table__cell>.cell,.el-table__expand-icon>.el-icon {
+.el-collapse-item__header>span+span,.el-form-item__label,.el-pagination__total,.el-table th.el-table__cell>.cell,.el-table__expand-icon>.el-icon,.x-login-container div[style="text-align: center; font-size: 12px;"]>* {
     color: #baa!important
 }
 .el-table .ascending .sort-caret.ascending {
@@ -155,14 +155,11 @@ body,button,input,select,textarea {
 .el-tabs--card>.el-tabs__header,.el-tabs--card>.el-tabs__header .el-tabs__item,.el-tabs--card>.el-tabs__header .el-tabs__item.is-active,.el-tabs--card>.el-tabs__header .el-tabs__nav {
     border-color: transparent
 }
-.options-container .header {
+.options-container .header,h2 {
     color: #faeeee
 }
 .options-container .sub-header {
     color: #988
-}
-.options-container {
-    user-select: none
 }
 .el-table__row td:first-child {
     padding-left: 5px;
@@ -172,4 +169,10 @@ body,button,input,select,textarea {
 .el-table__row td:last-child {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px
+}
+.el-pagination__total,.el-table .cell,.options-container,.x-login-container {
+    user-select: none
+}
+.el-select-dropdown {
+    border-color: var(--lighter-bg)
 }
