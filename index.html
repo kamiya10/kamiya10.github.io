@@ -16,11 +16,47 @@
 </head>
 <body>
     <div class="container">
+        <p>這個地方什麼都沒有</p>
+        <p>什麼都沒有</p>
+        <p>沒有</p>
+        <div class="link" id="start">.</div>
+
+        我做的東東
         <div class="item_container">
-            <div class="item">
-                <a href="/VRCX/themes/pink/pink">VRCX 粉色主題</a>
-            </div>
+            <a class="link" href="/r/bot">Kami v4 - 一個多功能 Discord 機器人</a>
+            <a class="link" href="https://github.com/kamiya10/VRCX">VRCX 繁中翻譯版</a>
+            <a class="link" href="/VRCX/themes/pink/pink">VRCX 粉色主題</a>
         </div>
     </div>
 </body>
+<script>
+    const a = new Audio("https://kamiya.tk/res/rick.mp3");
+    a.volume = .5;
+    document
+        .getElementById("start")
+        .addEventListener("click", () => a.paused ?a.play() :a.pause())
+</script>
+<style>
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+    p, a {
+        margin: 5px 0;
+    }
+    .item_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .link {
+        color: #69d;
+        text-decoration: none;
+
+        transition: color ease-in-out .1s, text-decoration ease-in-out .1s;
+    }
+    .link:hover {
+        color: #8bf;
+        text-decoration: underline;
+    }
+</style>
 </html>
