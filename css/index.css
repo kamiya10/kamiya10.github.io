@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+}
+.item_container {
+  display: flex;
+}
+.item {
+  margin: 10px;
+  width: 12vh;
+  height: 12vh;
+  line-height: 12vh;
+  text-align: center;
+}
