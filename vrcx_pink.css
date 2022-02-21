@@ -171,7 +171,7 @@ body,button,input,select,textarea {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px
 }
-.el-pagination__total,.el-table .cell,.options-container,.x-login-container {
+.el-pagination__total,.el-table .cell,.options-container,.x-login-container,.x-friend-item {
     user-select: none
 }
 .el-select-dropdown {

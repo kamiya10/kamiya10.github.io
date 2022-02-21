@@ -2,20 +2,14 @@
 
 /*
 :root {
-    /* 背景圖片 */
-    --k-bg-image: url(https://i.imgur.com/qEayCTw.jpg);
-    /* 背景亮度 */
-    --k-bg-brightness: 0.5;
-    /* 背景模糊 */
-    --k-bg-blur: ;
-    /* 彈出視窗背景圖片 */
-    --k-dialog-bg-image: ;
-    /* 彈出視窗背景亮度 */
-    --k-dialog-bg-brightness: 0.5;
-    /* 彈出視窗背景模糊 */
-    --k-dialog-bg-blur: ;
-    /* 彈出視窗後景模糊 */
-    --k-dialog-dimmer-blur: ;
+    --k-bg-image:                 url();   /* 背景圖片         */ /* url() */
+    --k-bg-brightness:              0.5;   /* 背景亮度         */ /* 0.5   */
+    --k-bg-blur:                       ;   /* 背景模糊         */ /*       */
+    --k-dialog-bg-image:               ;   /* 彈出視窗背景圖片 */ /*       */
+    --k-dialog-bg-brightness:       0.5;   /* 彈出視窗背景亮度 */ /* 0.5   */
+    --k-dialog-bg-blur:                ;   /* 彈出視窗背景模糊 */ /*       */
+    --k-dialog-dimmer-blur:            ;   /* 彈出視窗後景模糊 */ /*       */
+
     --theme: #dfa2a2;
     --bg: #322525;
     --light-bg: #443030;
