@@ -99,7 +99,7 @@
 
 /* active icon */
 .md3.switch input:checked+span.slider span.icon {
-    left: 26px;
+    left: 24px;
     opacity: 1;
     color: var(--md3-on-primary-container);
 }
