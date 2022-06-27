@@ -34,7 +34,8 @@
     content: "";
     height: 16px;
     width: 16px;
-    left: 0px;
+    left: -2px;
+    bottom: -2px;
     margin: 6px;
     background-color: var(--md3-outline);
     border-radius: 28px;
@@ -70,7 +71,7 @@
     background-color: var(--md3-on-primary);
     height: 24px;
     width: 24px;
-    left: 20px;
+    left: 18px;
     margin: 2px;
 }
 
