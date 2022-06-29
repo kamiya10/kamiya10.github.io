@@ -4,8 +4,8 @@
 
 .md3.switch {
     user-select: none;
-    height: 48px;
-    width: 68px;
+    height: 28px;
+    width: 48px;
     -webkit-tap-highlight-color: transparent;
     margin: 10px;
     font-family: 'Roboto', sans-serif;
