@@ -25,7 +25,7 @@
     width: 48px;
     height: 28px;
     border-radius: 28px;
-    border: 2px solid var(--md3-outline);
+    border: 2px solid rgb(var(--md3-outline));
     transition: background-color .1s ease-in-out,
         border-color .1s ease-in-out;
 }
@@ -39,7 +39,7 @@
     left: -2px;
     bottom: -2px;
     margin: 6px;
-    background-color: var(--md3-outline);
+    background-color: rgb(var(--md3-outline));
     border-radius: 28px;
     transition: left 175ms cubic-bezier(0, .5, .5, 1.5),
         background-color .1s ease-in-out,
@@ -64,13 +64,13 @@
 
 /* active track */
 .md3.switch input:checked+span.slider {
-    background-color: var(--md3-primary);
+    background-color: rgb(var(--md3-primary));
     border-color: transparent;
 }
 
 /* active thumb */
 .md3.switch input:checked+span.slider::before {
-    background-color: var(--md3-on-primary);
+    background-color: rgb(var(--md3-on-primary));
     height: 24px;
     width: 24px;
     left: 18px;
@@ -79,12 +79,12 @@
 
 /* hover thumb */
 .md3.switch input:not(:disabled):hover+span.slider::before {
-    background-color: var(--md3-on-surface-variant);
+    background-color: rgb(var(--md3-on-surface-variant));
 }
 
 /* active hover thumb */
 .md3.switch input:not(:disabled):checked:hover+span.slider::before {
-    background-color: var(--md3-primary-container);
+    background-color: rgb(var(--md3-primary-container));
 }
 
 /* click thumb */
@@ -96,7 +96,7 @@
 
 /* active click thumb */
 .md3.switch input:not(:disabled):checked:active+span.slider::before {
-    background-color: var(--md3-primary-container);
+    background-color: rgb(var(--md3-primary-container));
 }
 
 /* active icon */
