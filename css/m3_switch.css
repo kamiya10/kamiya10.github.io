@@ -36,8 +36,7 @@
     content: "";
     height: 16px;
     width: 16px;
-    left: -2px;
-    bottom: -2px;
+    left: 0px;
     margin: 6px;
     background-color: rgb(var(--md3-outline));
     border-radius: 28px;
@@ -73,7 +72,7 @@
     background-color: rgb(var(--md3-on-primary));
     height: 24px;
     width: 24px;
-    left: 18px;
+    left: 20px;
     margin: 2px;
 }
 
@@ -101,7 +100,7 @@
 
 /* active icon */
 .md3.switch input:checked+span.slider span.icon {
-    left: 24px;
+    left: 26px;
     opacity: 1;
     color: rgb(var(--md3-on-primary-container));
 }
