@@ -177,3 +177,32 @@ body,button,input,select,textarea {
 .el-select-dropdown {
     border-color: var(--lighter-bg)
 }
+.el-popover {
+    background-color: var(--lighter-bg);
+    border-color: var(--lighter-border);
+}
+.x-menu-container::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(255,255,255,.1);
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+.el-radio-button__orig-radio:disabled+.el-radio-button__inner {
+    color: var(--lighter-lighter-lighter-bg);
+    background-color: var(--light-bg);
+    border-color: var(--lighter-bg);
+}
+.el-radio-button__orig-radio:disabled:checked+.el-radio-button__inner {
+    color: var(--lighter-lighter-lighter-bg);
+    background-color: var(--lighter-bg);
+    border-color: var(--lighter-bg);
+}
+.el-radio-button__orig-radio:disabled:checked+.el-radio-button__inner {
+    box-shadow: none;
+}
