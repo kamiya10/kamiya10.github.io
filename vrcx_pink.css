@@ -210,7 +210,7 @@ body,button,input,select,textarea {
 }
 .famfamfam-flags {
     background: url(https://kamiya.tk/res/vrcx_flags.png) no-repeat;
-    background-size: 144px;
+    background-size: calc(var(--offx) * 6);
     width: var(--offx) !important;
     height: var(--offy) !important;
     transform: translateY(2px);
