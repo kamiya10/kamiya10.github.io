@@ -214,6 +214,13 @@ body,button,input,select,textarea {
     width: var(--offx) !important;
     height: var(--offy) !important;
     transform: translateY(calc(var(--offx) / 16));
+    background-position: calc(var(--offx) * -5) calc(var(--offy) * -4);
+}
+span[class="famfamfam-flags"] {
+    background-position: calc(var(--offx) * 1) 0;
+}
+.famfamfam-flags.flag-icon-usw {
+    background-position: 0 0;
 }
 .famfamfam-flags.us {
     background-position: 0 0;
@@ -287,9 +294,16 @@ body,button,input,select,textarea {
 .famfamfam-flags.ua {
     background-position: calc(var(--offx) * -5) calc(var(--offy) * -3);
 }
+
 .famfamfam-flags.gb {
     background-position: 0 calc(var(--offy) * -4);
 }
-.famfamfam-flags.tw {
+.famfamfam-flags.flag-icon-use {
     background-position: calc(var(--offx) * -1) calc(var(--offy) * -4);
+}
+.famfamfam-flags.flag-icon-eu {
+    background-position: calc(var(--offx) * -2) calc(var(--offy) * -4);
+}
+.famfamfam-flags.tw {
+    background-position: calc(var(--offx) * -3) calc(var(--offy) * -4);
 }
