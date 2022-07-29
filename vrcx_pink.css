@@ -8,7 +8,9 @@
     --lighter-lighter-lighter-bg: #756060;
     --lighter-lighter-lighter-lighter-bg: #857070;
     --lighter-border: #aa6065;
-    --font: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif
+    --font: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    --offx: 24px;
+    --offy: 15.77142857142857px;
 }
 body,button,input,select,textarea {
     font-family: var(--font)
@@ -206,6 +208,93 @@ body,button,input,select,textarea {
 .el-radio-button__orig-radio:disabled:checked+.el-radio-button__inner {
     box-shadow: none;
 }
+.famfamfam-flags {
+    background: url(https://kamiya.tk/res/vrcx_flags.png) no-repeat;
+    background-size: 144px;
+    width: var(--offx) !important;
+    height: var(--offy) !important;
+    transform: translateY(2px);
+}
+
+.famfamfam-flags.us {
+    background-position: 0 0;
+}
+.famfamfam-flags.kr {
+    background-position: calc(var(--offx) * -1) 0;
+}
+.famfamfam-flags.ru {
+    background-position: calc(var(--offx) * -2) 0;
+}
+.famfamfam-flags.es {
+    background-position: calc(var(--offx) * -3) 0;
+}
+.famfamfam-flags.pt {
+    background-position: calc(var(--offx) * -4) 0;
+}
+.famfamfam-flags.cn {
+    background-position: calc(var(--offx) * -5) 0;
+}
+
+.famfamfam-flags.de {
+    background-position: 0 calc(var(--offy) * -1);
+}
+.famfamfam-flags.jp {
+    background-position: calc(var(--offx) * -1) calc(var(--offy) * -1);
+}
+.famfamfam-flags.fr {
+    background-position: calc(var(--offx) * -2) calc(var(--offy) * -1);
+}
+.famfamfam-flags.se {
+    background-position: calc(var(--offx) * -3) calc(var(--offy) * -1);
+}
+.famfamfam-flags.nl {
+    background-position: calc(var(--offx) * -4) calc(var(--offy) * -1);
+}
+.famfamfam-flags.pl {
+    background-position: calc(var(--offx) * -5) calc(var(--offy) * -1);
+}
+
+.famfamfam-flags.dk {
+    background-position: 0 calc(var(--offy) * -2);
+}
+.famfamfam-flags.no {
+    background-position: calc(var(--offx) * -1) calc(var(--offy) * -2);
+}
+.famfamfam-flags.it {
+    background-position: calc(var(--offx) * -2) calc(var(--offy) * -2);
+}
+.famfamfam-flags.th {
+    background-position: calc(var(--offx) * -3) calc(var(--offy) * -2);
+}
+.famfamfam-flags.fi {
+    background-position: calc(var(--offx) * -4) calc(var(--offy) * -2);
+}
+.famfamfam-flags.hu {
+    background-position: calc(var(--offx) * -5) calc(var(--offy) * -2);
+}
+
+.famfamfam-flags.cz {
+    background-position: 0 calc(var(--offy) * -3);
+}
+.famfamfam-flags.tr {
+    background-position: calc(var(--offx) * -1) calc(var(--offy) * -3);
+}
+.famfamfam-flags.ae {
+    background-position: calc(var(--offx) * -2) calc(var(--offy) * -3);
+}
+.famfamfam-flags.ro {
+    background-position: calc(var(--offx) * -3) calc(var(--offy) * -3);
+}
+.famfamfam-flags.vn {
+    background-position: calc(var(--offx) * -4) calc(var(--offy) * -3);
+}
+.famfamfam-flags.ua {
+    background-position: calc(var(--offx) * -5) calc(var(--offy) * -3);
+}
+
+.famfamfam-flags.gb {
+    background-position: 0 calc(var(--offy) * -4);
+}
 .famfamfam-flags.tw {
-    background-position: -80px -188px;
+    background-position: calc(var(--offx) * -1) calc(var(--offy) * -4);
 }
