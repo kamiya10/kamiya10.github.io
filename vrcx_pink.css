@@ -215,7 +215,6 @@ body,button,input,select,textarea {
     height: var(--offy) !important;
     transform: translateY(2px);
 }
-
 .famfamfam-flags.us {
     background-position: 0 0;
 }
@@ -234,7 +233,6 @@ body,button,input,select,textarea {
 .famfamfam-flags.cn {
     background-position: calc(var(--offx) * -5) 0;
 }
-
 .famfamfam-flags.de {
     background-position: 0 calc(var(--offy) * -1);
 }
@@ -253,7 +251,6 @@ body,button,input,select,textarea {
 .famfamfam-flags.pl {
     background-position: calc(var(--offx) * -5) calc(var(--offy) * -1);
 }
-
 .famfamfam-flags.dk {
     background-position: 0 calc(var(--offy) * -2);
 }
@@ -272,7 +269,6 @@ body,button,input,select,textarea {
 .famfamfam-flags.hu {
     background-position: calc(var(--offx) * -5) calc(var(--offy) * -2);
 }
-
 .famfamfam-flags.cz {
     background-position: 0 calc(var(--offy) * -3);
 }
@@ -291,7 +287,6 @@ body,button,input,select,textarea {
 .famfamfam-flags.ua {
     background-position: calc(var(--offx) * -5) calc(var(--offy) * -3);
 }
-
 .famfamfam-flags.gb {
     background-position: 0 calc(var(--offy) * -4);
 }
