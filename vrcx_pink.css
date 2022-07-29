@@ -9,8 +9,8 @@
     --lighter-lighter-lighter-lighter-bg: #857070;
     --lighter-border: #aa6065;
     --font: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
-    --offx: 24px;
-    --offy: 15.77142857142857px;
+    --offx: 20px; /* flag size */
+    --offy: calc(var(--offx) / 70 * 46);
 }
 body,button,input,select,textarea {
     font-family: var(--font)
@@ -213,7 +213,7 @@ body,button,input,select,textarea {
     background-size: calc(var(--offx) * 6);
     width: var(--offx) !important;
     height: var(--offy) !important;
-    transform: translateY(2px);
+    transform: translateY(calc(var(--offx) / 16));
 }
 .famfamfam-flags.us {
     background-position: 0 0;
