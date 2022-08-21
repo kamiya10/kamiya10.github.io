@@ -173,9 +173,6 @@ body,button,input,select,textarea {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px
 }
-.el-pagination__total,.el-table .cell,.options-container,.x-login-container,.x-friend-item {
-    user-select: none
-}
 .el-select-dropdown {
     border-color: var(--lighter-bg)
 }
@@ -306,4 +303,45 @@ span[class="famfamfam-flags"] {
 }
 .famfamfam-flags.tw {
     background-position: calc(var(--offx) * -3) calc(var(--offy) * -4);
+}
+body, button, input, select, textarea {
+    font-variant-numeric: tabular-nums;
+}
+body {
+    user-select: none;
+}
+.extra, .x-link, input[type=text], input[type=password] {
+    user-select: text;
+}
+.avatar-info-public::selection {
+    color: hsl(100, 54%, 64%)
+}
+.avatar-info-own::selection {
+    color: hsl(36, 77%, 72%);
+}
+::selection {
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+}
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
+    transition: background-color .1s ease-in-out;
+}
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
+    background-color: var(--lighter-lighter-lighter-bg);
+}
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover {
+    background-color: var(--lighter-lighter-bg);
+}
+.el-select .el-tag__close.el-icon-close {
+    background-color: var(--lighter-lighter-bg);
+}
+input[type=checkbox] + .el-switch__core {
+    width: 36px !important;
+}
+input[type=checkbox]:checked + .el-switch__core {
+    border-color: var(--theme) !important;
+    background-color: var(--theme) !important;
+}
+.el-loading-spinner .path {
+    stroke: var(--theme);
 }
