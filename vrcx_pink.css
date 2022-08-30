@@ -310,7 +310,7 @@ body, button, input, select, textarea {
 body {
     user-select: none;
 }
-.extra, .x-link, .el-tree, input[type=text], input[type=password] {
+.extra, .dialog-title, .x-link, .el-tree, input[type=text], input[type=password] {
     user-select: text;
 }
 .avatar-info-public::selection {
