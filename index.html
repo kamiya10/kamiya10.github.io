@@ -1,65 +1,74 @@
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d67290">
-    <meta name="msapplication-TileColor" content="#d67290">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <meta property="og:url" content="https://kamiya.tk">
-    <meta property="og:title" content="Kamiya ㄉ網頁">
-    <meta property="og:description" content="J裡神摸都沒有ouo">
 
-    <title>Kamiya</title>
-</head>
-<body>
-    <div class="container">
-        <p>這個地方什麼都沒有</p>
-        <p>什麼都沒有</p>
-        <p>沒有</p>
-        <div class="link" id="start">.</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d67290">
+        <meta name="msapplication-TileColor" content="#d67290">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <meta property="og:url" content="https://kamiya.tk">
+        <meta property="og:title" content="Kamiya ㄉ網頁">
+        <meta property="og:description" content="J裡神摸都沒有ouo">
 
-        我做的東東
-        <div class="item_container">
-            <a class="link" href="/r/bot">Kami v4 - 一個多功能 Discord 機器人</a>
-            <a class="link" href="https://github.com/kamiya10/VRCX-TC">VRCX 繁中翻譯版</a>
-            <a class="link" href="/VRCX/themes/pink/pink">VRCX 粉色主題</a>
+        <title>Kamiya</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <p>這個地方什麼都沒有</p>
+            <p>什麼都沒有</p>
+            <p>沒有</p>
+            <div class="link" id="start">.</div>
+
+            我做的東東
+            <div class="item_container">
+                <a class="link" href="/r/bot">Kami v5 - 一個多功能 Discord 機器人</a>
+                <a class="link" href="/r/musicbot">Kami v5 Music - Discord 音樂機器人</a>
+                <a class="link" href="https://github.com/kamiya10/VRCX-TC">VRCX 繁中翻譯版</a>
+                <a class="link" href="/VRCX/themes/pink/pink">VRCX 粉色主題</a>
+            </div>
         </div>
-    </div>
-</body>
-<script>
-    const a = new Audio("https://kamiya.tk/res/rick.mp3");
-    a.volume = .5;
-    document
-        .getElementById("start")
-        .addEventListener("click", () => a.paused ?a.play() :a.pause())
-</script>
-<style>
-    body {
-        background-color: #222;
-        color: #eee;
-    }
-    p, a {
-        margin: 5px 0;
-    }
-    .item_container {
-        display: flex;
-        flex-direction: column;
-    }
-    .link {
-        color: #69d;
-        text-decoration: none;
+    </body>
+    <script>
+        const a = new Audio("https://kamiya.tk/res/rick.mp3");
+        a.volume = .5;
+        document
+            .getElementById("start")
+            .addEventListener("click", () => a.paused ? a.play() : a.pause())
+    </script>
+    <style>
+        body {
+            background-color: #222;
+            color: #eee;
+        }
 
-        transition: color ease-in-out .1s, text-decoration ease-in-out .1s;
-    }
-    .link:hover {
-        color: #8bf;
-        text-decoration: underline;
-    }
-</style>
+        p,
+        a {
+            margin: 5px 0;
+        }
+
+        .item_container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .link {
+            color: #69d;
+            text-decoration: none;
+
+            transition: color ease-in-out .1s, text-decoration ease-in-out .1s;
+        }
+
+        .link:hover {
+            color: #8bf;
+            text-decoration: underline;
+        }
+    </style>
+
 </html>
