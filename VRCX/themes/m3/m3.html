@@ -1,0 +1,137 @@
+<html lang="zh-TW">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d67290">
+        <meta name="msapplication-TileColor" content="#d67290">
+        <meta name="theme-color" content="#D0BCFF">
+
+        <title>VRCX Material 3</title>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 class="header">VRCX Material 3</h2>
+            <div class="palettes">
+                <div class="color" style="background-color: #D0BCFF; color:#371E73; margin-right: 15vh;">md.sys.color.primary</div>
+                <div class="color" style="background-color: #4A4458; color:#E8DEF8; text-align: center;">md.sys.color.secondary-container</div>
+                <div class="color" style="background-color: #492532; color:#EFB8C8; text-align: right; margin-left: 15vh;">md.sys.color.on-tertiary</div>
+            </div>
+            <div class="instructions">
+                <ol>
+                    <li>Download <a class="download" href="./custom.css" download>this</a> file <small>(custom.css, 39 bytes)</small></li>
+                    <li>Put <code>custom.css</code> inside <code>%AppData%\VRCX</code></li>
+                    <li>In VRCX, <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> to reload the theme</li>
+                </ol>
+            </div>
+
+            <div class="screenshots">
+                <small>(Click to enlarge)</small>
+                <a href="./resource/m3-feed.png" target="_blank" rel="noopener noreferrer"><img src="./resource/m3-feed.png" alt="" width="600"></a>
+                <a href="./resource/m3-ser.png" target="_blank" rel="noopener noreferrer"><img src="./resource/m3-user.png" alt="" width="600"></a>
+            </div>
+        </div>
+    </body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600&display=swap");
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        html,
+        body {
+            font-family: 'Google Sans', sans-serif;
+            line-height: 24px;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            background-color: #1C1B1F;
+            user-select: none;
+            color: #E6E1E5
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 40px;
+            font-size: 32px;
+            letter-spacing: 0px;
+            margin-top: 26px;
+        }
+
+        li {
+            margin: 4px 0;
+        }
+
+        kbd {
+            font-family: sans-serif;
+            padding: 0 5px;
+            margin: 2px;
+            color: #CAC4D0;
+            background-color: #49454F;
+            border-radius: 5px;
+            border: 1px solid #938F99;
+        }
+
+        code {
+            font-family: 'Consolas', monospace;
+            padding: 0 4px;
+            margin: 2px;
+            background-color: #49454F;
+            color: #CAC4D0;
+            user-select: text;
+        }
+
+        small {
+            color: #938F99;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .palettes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .palettes .color {
+            margin: 4px 0;
+            padding: 0 8vh;
+            height: 6vh;
+            width: 40vh;
+            line-height: 6vh;
+            border-radius: 3vh;
+        }
+
+        .instructions {
+            width: fit-content;
+            margin: auto;
+        }
+
+        .download {
+            color: #D0BCFF;
+            text-decoration: none;
+        }
+
+        .screenshots {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+
+        img {
+            margin: 10px;
+        }
+    </style>
+
+</html>
