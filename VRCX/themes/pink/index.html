@@ -1,0 +1,125 @@
+<html lang="zh-TW">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d67290">
+        <meta name="msapplication-TileColor" content="#d67290">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Kamiya's VRCX Pink Theme</title>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 class="header">Kamiya's VRCX Pink Theme</h2>
+            <div class="palettes">
+                <div class="color" style="background-color: #322525; color:#928585">#322525</div>
+                <div class="color" style="background-color: #dfa2a2; color:#7f4242">#dfa2a2</div>
+                <div class="color" style="background-color: #554040; color:#b5a0a0">#554040</div>
+            </div>
+            <div class="instructions">
+                <ol>
+                    <li>Download <a class="download" href="./custom.css" download>this</a> file<small>(custom.css, 409 bytes)</small></li>
+                    <li>Put <code>custom.css</code> inside <code>%AppData%\VRCX</code></li>
+                    <li>In VRCX, <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> to reload the theme</li>
+                </ol>
+            </div>
+
+            <div class="screenshots">
+                <small>Click to enlarge</small>
+                <a href="./resource/pink-feed.png" target="_blank" rel="noopener noreferrer"><img src="./resource/pink-feed.png" alt="" width="600"></a>
+                <a href="./resource/pink-user.png" target="_blank" rel="noopener noreferrer"><img src="./resource/pink-user.png" alt="" width="600"></a>
+            </div>
+        </div>
+    </body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        html,
+        body {
+            font-family: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+            background-color: #221515;
+            user-select: none;
+            color: #faeeee
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        kbd {
+            font-family: sans-serif;
+            padding: 0 5px;
+            margin: 2px;
+            background-color: #554040;
+            border-radius: 5px;
+            border: 1px solid #958080;
+        }
+
+        code {
+            font-family: 'Consolas', monospace;
+            padding: 0 4px;
+            margin: 2px;
+            background-color: #111;
+            color: #caa;
+            user-select: text;
+        }
+
+        small {
+            color: #a88;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .palettes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .palettes .color {
+            margin: 0 10px;
+            height: 12vh;
+            width: 12vh;
+            line-height: 12vh;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        .instructions {
+            width: fit-content;
+            margin: auto
+        }
+
+        .download {
+            color: #dfa2a2;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .screenshots {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+
+        img {
+            margin: 10px;
+        }
+    </style>
+
+</html>
