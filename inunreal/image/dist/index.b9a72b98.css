@@ -1,0 +1,47 @@
+.view {
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+}
+
+.view #canvas {
+  position: relative;
+}
+
+.view #canvas #bg {
+  width: 1200px;
+}
+
+.view #canvas #avatar1 {
+  position: absolute;
+  top: 160px;
+  left: 826px;
+}
+
+.view #canvas .avatar {
+  width: 280px;
+  aspect-ratio: 1;
+  mix-blend-mode: multiply;
+}
+
+.view #canvas #name {
+  width: 700px;
+  text-align: center;
+  font-size: 84px;
+  line-height: 84px;
+  position: absolute;
+  bottom: 386px;
+  left: 94px;
+}
+
+.view .container {
+  flex-direction: column;
+  margin: 8px;
+  display: flex;
+}
+
+.view .container .row {
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=index.b9a72b98.css.map */
